@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  border: 3px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  border-radius: 1rem;
+  width: 50rem;
+  height: 17rem;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px -1px 21px 1px rgba(0,0,0,0.75);
+}
+
+.text-container{
+  background-color:whitesmoke ;
+  width: 100%;
+  height: 12rem;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+
+.text-container i{
+  font-size: 5rem;
+  padding:2rem;
+}
+
+
+.btn-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  background-color: aliceblue;
+  padding-right: 2rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.btn-container button{
+  border: 2px solid purple;
+  width: 4rem;
+  height: 4rem;
+  border-radius:50% ;
+  cursor: pointer;
+  box-shadow: -1px -1px 21px -1px rgba(0,0,0,0.75);
+  margin: 1rem;
+}
+
+.btn-container button i{
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.my-body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
